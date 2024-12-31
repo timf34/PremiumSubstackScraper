@@ -77,6 +77,25 @@ To scrape a specific number of posts:
 python substack_scraper.py --url https://example.substack.com --directory /path/to/save/posts --number 5
 ```
 
+To scrape a single post:
+
+```bash
+python substack_scraper.py --url https://example.substack.com/p/example-post --directory /path/to/save/posts
+```
+
+To scrape images and download them to a `substack_images/` folder locally:
+
+```bash
+python substack_scraper.py --url https://example.substack.com --directory /path/to/save/posts --images
+```
+
+### Testing
+Run tests using pytest:
+
+```
+python -m pytest
+```
+
 ### Online Version
 
 For a hassle-free experience without any local setup:
