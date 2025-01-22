@@ -259,7 +259,7 @@ class BaseSubstackScraper(ABC):
 
         date_element = soup.find(
             "div",
-            class_="pencraft pc-reset _color-pub-secondary-text_3axfk_207 _line-height-20_3axfk_95 _font-meta_3axfk_131 _size-11_3axfk_35 _weight-medium_3axfk_162 _transform-uppercase_3axfk_242 _reset_3axfk_1 _meta_3axfk_442"
+            class_="pencraft pc-reset _color-pub-secondary-text_1xu16_194 _line-height-20_1xu16_81 _font-meta_1xu16_116 _size-11_1xu16_32 _weight-medium_1xu16_146 _transform-uppercase_1xu16_241 _reset_1xu16_2 _meta_1xu16_441"
         )
         date = date_element.text.strip() if date_element else "Date not found"
 
